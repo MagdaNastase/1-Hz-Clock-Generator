@@ -1,0 +1,25 @@
+\t (00:00:04) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed Jun 12 11:19:03 2024
+\t (00:00:04)         Host=MAGDA User=nasta Pid=14884 CPUs=8
+\t (00:00:04) CmdLine= D:\17.2-2016_S024_OrCAD Lite_All Products\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:04) Starting new design...
+\i (00:00:07) trapsize 703
+\i (00:00:07) trapsize 720
+\i (00:00:07) trapsize 1196
+\i (00:00:07) trapsize 1012
+\i (00:00:07) trapsize 711
+\i (00:00:07) trapsize 2083
+\i (00:00:07) generaledit 
+\i (00:00:09) open 
+\i (00:00:11) fillin "DESIGN1_17_2.brd"
+\t (00:00:11) Opening existing design...
+\t (00:00:11) Grids are drawn 1.600, 1.600 apart for enhanced viewability.
+\i (00:00:11) trapsize 1277
+\d (00:00:11) Design opened: C:/Users/nasta/OneDrive - Universitatea Politehnica Bucuresti/Desktop/PROIECT_TIE_FINAL_V2/MAGDA/PCB/DESIGN1_17_2.brd
+\i (00:00:11) generaledit 
+\i (00:00:16) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: BOT"
+\i (00:00:16) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: BOT"
+\i (00:00:18) exit 
+\t (00:00:18)     Journal end - Wed Jun 12 11:19:17 2024

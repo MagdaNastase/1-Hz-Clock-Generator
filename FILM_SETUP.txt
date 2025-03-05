@@ -1,0 +1,6 @@
+axlFilmCreate( "ASS" ?negative nil ?undefineLineWidth 0.152 ?sequence 4 
+	?rotation 0 ?xOffset 0.000 ?yOffset 0.000 ?shapeBoundingBox 2.540 ?mirrored nil ?fullContact nil 
+	?suppressUnconnectPads nil ?drawMissingPadApertures nil ?useApertureRotation nil 
+	?suppressShapeFill nil ?vectorBasedPad t ?drawHolesOnly nil 
+	?domains '(ipc2581 pdf artwork visibility ) ?ipc2581 '() 
+	?layers '("REF DES/ASSEMBLY_TOP" "PACKAGE GEOMETRY/ASSEMBLY_TOP" "BOARD GEOMETRY/OUTLINE" ))

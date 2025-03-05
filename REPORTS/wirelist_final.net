@@ -1,0 +1,110 @@
+Wire List
+
+                                              Revised: June 7, 2024
+C:\USERS\NASTA\ONEDRIVE - UNIVERSITATEA POLITERevision: 
+
+
+
+
+
+
+<<< Component List >>>
+CON2X1                        J1        CON2
+CON2X1                        J2        CON2
+CON2X1                        J3        CON2
+4001                          U1        SOIC14
+4027                          U2        SOIC16
+4013                          U3        SOIC14
+4017                          U4        SOIC16
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] GND
+        U1              7       GND             Power          4001
+        U4              13      CLK_I           Power          4017
+        U4              8       VSS             Power          4017
+        U4              15      RST             Power          4017
+        J1              2       2               Passive        CON2X1
+        J2              2       2               Passive        CON2X1
+        U2              8       GND             Power          4027
+        U3              7       GND             Power          4013
+        U3              8       S2              Power          4013
+        U3              6       S1              Power          4013
+        U3              10      C2              Power          4013
+        U3              4       C1              Power          4013
+
+[00002] N14340442
+        U1              1       I0_A            Input          4001
+        U1              2       I1_A            Input          4001
+        J1              1       1               Passive        CON2X1
+
+[00003] N14340459
+        U1              3       O_A             Output         4001
+        U1              5       I0_B            Input          4001
+        U1              6       I1_B            Input          4001
+
+[00004] N14340483
+        U1              4       O_B             Output         4001
+        U1              8       I0_C            Input          4001
+        U1              9       I1_C            Input          4001
+
+[00005] N14340510
+        U1              10      O_C             Output         4001
+        U2              13      CL1             Input          4027
+        U2              3       CL2             Input          4027
+        U3              3       CLK1            Input          4013
+
+[00006] N14341374
+        U2              9       SET1            BiDirectional  4027
+        U2              4       RST2            BiDirectional  4027
+        U2              7       SET2            BiDirectional  4027
+        U2              12      RST1            BiDirectional  4027
+
+[00007] N14341415
+        U2              15      Q1              BiDirectional  4027
+        U2              6       J2              BiDirectional  4027
+        U2              5       K2              BiDirectional  4027
+
+[00008] N14341507
+        U1              12      I0_D            Input          4001
+        U2              14      Q\1\            BiDirectional  4027
+
+[00009] N14341511
+        U1              13      I1_D            Input          4001
+        U2              2       Q\2\            BiDirectional  4027
+
+[00010] N14341515
+        U1              11      O_D             Output         4001
+        U3              5       D1              Input          4013
+
+[00011] N14341519
+        U2              10      J1              BiDirectional  4027
+        U2              11      K1              BiDirectional  4027
+        U3              2       Q\1\            BiDirectional  4013
+
+[00012] N14342152
+        U3              9       D2              BiDirectional  4013
+        U3              12      Q\2\            BiDirectional  4013
+
+[00013] N14342464
+        U4              14      CLK             BiDirectional  4017
+        U3              1       Q1              BiDirectional  4013
+
+[00014] N14342485
+        U4              12      CO              BiDirectional  4017
+        J3              2       2               Passive        CON2X1
+        U3              11      CLK2            BiDirectional  4013
+
+[00015] N14342489
+        J3              1       1               Passive        CON2X1
+        U3              13      Q2              BiDirectional  4013
+
+[00016] VDD
+        U1              14      VDD             Power          4001
+        U4              16      VDD             Power          4017
+        J2              1       1               Passive        CON2X1
+        U2              16      VDD             Power          4027
+        U3              14      VDD             Power          4013
+

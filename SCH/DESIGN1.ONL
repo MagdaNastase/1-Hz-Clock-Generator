@@ -1,0 +1,831 @@
+(PCB DESIGN1
+ (description
+  (timeStamp "2024 06 11 19 29 18")
+  (program "CAPTURE.EXE" (Version "17.2-2016 - D"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "June 11, 2024")
+  (document "C:\\USERS\\NASTA\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\PROIECT_TIE_FINAL_V2\\MAGDA\\SCH\\DESIGN1.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component 4017_1
+   (place U4
+    (property 
+     (timestamp 000001A9)
+     ("Source Package" 4017_1)
+     (Value 4017)
+     ("MPN 1" CD4017BM96)
+     ("PCB Footprint" SOIC16)
+     ("MFR Name 1" TI))))
+  (component 40174_1
+   (place U3
+    (property 
+     (timestamp 00DAD650)
+     ("Source Package" 40174_1)
+     (Value 4013)
+     ("MPN 1" CD4013BM)
+     ("PCB Footprint" SOIC14)
+     ("MFR Name 1" TI))))
+  (component CON_HEADER_1x2_2.0MM
+   (place J1
+    (property 
+     (timestamp 00DAD0F8)
+     ("Source Package" CON_HEADER_1x2_2.0MM)
+     (REUSE_ANNOTATE TRUE)
+     (Value CON2X1)
+     ("MPN 1" 22272021)
+     (Description CONN_VRT_THT_M_2PIN_1X2_LATCH_2.54mm)
+     ("PCB Footprint" CON2)
+     ("MFR Name 1" MOLEX)))
+   (place J2
+    (property 
+     (timestamp 00DAD110)
+     ("Source Package" CON_HEADER_1x2_2.0MM)
+     (REUSE_ANNOTATE TRUE)
+     (Value CON2X1)
+     ("MPN 1" 22272021)
+     (Description CONN_VRT_THT_M_2PIN_1X2_LATCH_2.54mm)
+     ("PCB Footprint" CON2)
+     ("MFR Name 1" MOLEX)))
+   (place J3
+    (property 
+     (timestamp 00DAD128)
+     ("Source Package" CON_HEADER_1x2_2.0MM)
+     (REUSE_ANNOTATE TRUE)
+     (Value CON2X1)
+     ("MPN 1" 22272021)
+     (Description CONN_VRT_THT_M_2PIN_1X2_LATCH_2.54mm)
+     ("PCB Footprint" CON2)
+     ("MFR Name 1" MOLEX))))
+  (component 40175_2
+   (place U2
+    (property 
+     (timestamp 00DAD37E)
+     ("Source Package" 40175_2)
+     (Value 4027)
+     ("MPN 1" CD4027BM96)
+     ("PCB Footprint" SOIC16)
+     ("MFR Name 1" TI))))
+  (component 4001_3
+   (place U1
+    (property 
+     (timestamp 00000030)
+     ("Source Package" 4001_3)
+     (Value 4001)
+     ("MPN 1" CD4001BM96)
+     ("PCB Footprint" SOIC14)
+     ("MFR Name 1" TI)))))
+ (library
+  (image 4001_3
+   (property 
+    (sourcelib "C:\\USERS\\NASTA\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\PROIECT_TIE_FINAL_V2\\MAGDA\\SCH\\LIBRABRY_PORTI.OLB"))
+   (pin 999 1
+    (property 
+     (pinname I0_A)
+     (pintype 0)
+     (Name I0)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340442)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname I1_A)
+     (pintype 0)
+     (Name I1)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340442)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname O_A)
+     (pintype 2)
+     (Name O)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N14340459)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname VDD)
+     (pintype 7)
+     (Name VDD)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VDD)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname I0_B)
+     (pintype 0)
+     (Name I0)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340459)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname I1_B)
+     (pintype 0)
+     (Name I1)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340459)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname O_B)
+     (pintype 2)
+     (Name O)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N14340483)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname I0_C)
+     (pintype 0)
+     (Name I0)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340483)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname I1_C)
+     (pintype 0)
+     (Name I1)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340483)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname O_C)
+     (pintype 2)
+     (Name O)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N14340510)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname I0_D)
+     (pintype 0)
+     (Name I0)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14341507)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname I1_D)
+     (pintype 0)
+     (Name I1)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14341511)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname O_D)
+     (pintype 2)
+     (Name O)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N14341515)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image 40175_2
+   (property 
+    (sourcelib "C:\\USERS\\NASTA\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\PROIECT_TIE_FINAL_V2\\MAGDA\\SCH\\DESIGN1.DSN"))
+   (pin 999 9
+    (property 
+     (pinname SET1)
+     (pintype 1)
+     (Name SET1)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341374)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname RST2)
+     (pintype 1)
+     (Name RST2)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341374)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname SET2)
+     (pintype 1)
+     (Name SET2)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341374)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname Q2)
+     (pintype 1)
+     (Name Q2)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 4)
+     ("Is No Connect" True)))
+   (pin 999 10
+    (property 
+     (pinname J1)
+     (pintype 1)
+     (Name J1)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341519)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname RST1)
+     (pintype 1)
+     (Name RST1)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341374)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname CL1)
+     (pintype 0)
+     (Name CL1)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340510)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname VDD)
+     (pintype 7)
+     (Name VDD)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VDD)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname Q1)
+     (pintype 1)
+     (Name Q1)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341415)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname J2)
+     (pintype 1)
+     (Name J2)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341415)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname CL2)
+     (pintype 0)
+     (Name CL2)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340510)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname K2)
+     (pintype 1)
+     (Name K2)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341415)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname K1)
+     (pintype 1)
+     (Name K1)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341519)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname Q\\1\\)
+     (pintype 1)
+     (Name Q\\1\\)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341507)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Q\\2\\)
+     (pintype 1)
+     (Name Q\\2\\)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341511)
+     (Order 15)
+     ("Is No Connect" False))))
+  (image 40174_1
+   (property 
+    (sourcelib "C:\\USERS\\NASTA\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\PROIECT_TIE_FINAL_V2\\MAGDA\\SCH\\DESIGN1.DSN"))
+   (pin 999 3
+    (property 
+     (pinname CLK1)
+     (pintype 0)
+     (Name CLK1)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14340510)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname S2)
+     (pintype 7)
+     (Name S2)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname CLK2)
+     (pintype 1)
+     (Name CLK2)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342485)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname Q2)
+     (pintype 1)
+     (Name Q2)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342489)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname D2)
+     (pintype 1)
+     (Name D2)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342152)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname Q1)
+     (pintype 1)
+     (Name Q1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342464)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Q\\1\\)
+     (pintype 1)
+     (Name Q\\1\\)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14341519)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname D1)
+     (pintype 0)
+     (Name D1)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N14341515)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname S1)
+     (pintype 7)
+     (Name S1)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname C2)
+     (pintype 7)
+     (Name C2)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname Q\\2\\)
+     (pintype 1)
+     (Name Q\\2\\)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342152)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname VDD)
+     (pintype 7)
+     (Name VDD)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VDD)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname C1)
+     (pintype 7)
+     (Name C1)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 13)
+     ("Is No Connect" False))))
+  (image 4017_1
+   (property 
+    (sourcelib "C:\\USERS\\NASTA\\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\\DESKTOP\\PROIECT_TIE_FINAL_V2\\MAGDA\\SCH\\DESIGN1.DSN"))
+   (pin 999 14
+    (property 
+     (pinname CLK)
+     (pintype 1)
+     (Name CLK)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342464)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname CLK_I)
+     (pintype 7)
+     (Name CLK_I)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 7)
+     (pintype 1)
+     (Name 7)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 2)
+     ("Is No Connect" True)))
+   (pin 999 7
+    (property 
+     (pinname 3)
+     (pintype 1)
+     (Name 3)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 3)
+     ("Is No Connect" True)))
+   (pin 999 4
+    (property 
+     (pinname 2)
+     (pintype 1)
+     (Name 2)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 4)
+     ("Is No Connect" True)))
+   (pin 999 5
+    (property 
+     (pinname 6)
+     (pintype 1)
+     (Name 6)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 5)
+     ("Is No Connect" True)))
+   (pin 999 3
+    (property 
+     (pinname 0)
+     (pintype 1)
+     (Name 0)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 6)
+     ("Is No Connect" True)))
+   (pin 999 2
+    (property 
+     (pinname 1)
+     (pintype 1)
+     (Name 1)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 7)
+     ("Is No Connect" True)))
+   (pin 999 1
+    (property 
+     (pinname 5)
+     (pintype 1)
+     (Name 5)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 8)
+     ("Is No Connect" True)))
+   (pin 999 8
+    (property 
+     (pinname VSS)
+     (pintype 7)
+     (Name VSS)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname CO)
+     (pintype 1)
+     (Name CO)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     ("Net Name" N14342485)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname VDD)
+     (pintype 7)
+     (Name VDD)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VDD)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname RST)
+     (pintype 7)
+     (Name RST)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 8)
+     (pintype 1)
+     (Name 8)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 13)
+     ("Is No Connect" True)))
+   (pin 999 10
+    (property 
+     (pinname 4)
+     (pintype 1)
+     (Name 4)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 14)
+     ("Is No Connect" True)))
+   (pin 999 11
+    (property 
+     (pinname 9)
+     (pintype 1)
+     (Name 9)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 15)
+     ("Is No Connect" True))))
+  (image CON_HEADER_1x2_2.0MM
+   (property 
+    (sourcelib D:\\SWAPNIL\\LIBRARY\\SYMBOL\\CONNECTOR.OLB)
+    ("Mat Code" 1000009109)
+    ("MPN 1" "53253-0270")
+    ("MFR Name 1" MOLEX)
+    (Description CONN_VRT_THT_M_LATCH_2PIN_1X2_2mm))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N14340442)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     U1-7 U4-13 U4-8 U4-15 J1-2 J2-2 U2-8 U3-7 U3-8
+     U3-6 U3-10 U3-4))
+  (net N14340442
+   (pins
+     U1-1 U1-2 J1-1))
+  (net N14340459
+   (pins
+     U1-3 U1-5 U1-6))
+  (net N14340483
+   (pins
+     U1-4 U1-8 U1-9))
+  (net N14340510
+   (pins
+     U1-10 U2-13 U2-3 U3-3))
+  (net N14341374
+   (pins
+     U2-9 U2-4 U2-7 U2-12))
+  (net N14341415
+   (pins
+     U2-15 U2-6 U2-5))
+  (net N14341507
+   (pins
+     U1-12 U2-14))
+  (net N14341511
+   (pins
+     U1-13 U2-2))
+  (net N14341515
+   (pins
+     U1-11 U3-5))
+  (net N14341519
+   (pins
+     U2-10 U2-11 U3-2))
+  (net N14342152
+   (pins
+     U3-9 U3-12))
+  (net N14342464
+   (pins
+     U4-14 U3-1))
+  (net N14342485
+   (pins
+     U4-12 J3-2 U3-11))
+  (net N14342489
+   (pins
+     J3-1 U3-13))
+  (net VDD
+    (property 
+     (nettype S))
+   (pins
+     U1-14 U4-16 J2-1 U2-16 U3-14)))
+)
